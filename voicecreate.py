@@ -3,11 +3,11 @@ from discord.ext import commands
 import traceback
 import sys
 
-bot = commands.Bot(command_prefix=".")
+bot = commands.Bot(command_prefix="vm!")
 
 bot.remove_command("help")
 
-DISCORD_TOKEN = 'Enter Discord Token here'
+DISCORD_TOKEN = 'NzU5NDk2NzE3ODU0MTc5MzM4.X2-WcA.H7RJRbh7RGgc6smef005G3BC2QI'
 
 initial_extensions = ['cogs.voice']
 
